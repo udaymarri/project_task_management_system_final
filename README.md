@@ -1,17 +1,20 @@
-
 # 📊 Project Task Management System
 
 A modern **Project and Task Management Web Application** designed to help teams efficiently organize projects, assign tasks, track progress, and monitor productivity through an interactive dashboard.
 
-This platform provides **role-based dashboards, Kanban workflow boards, analytics visualization, and team collaboration features**, enabling streamlined project management similar to tools like Trello or Asana.
+The platform provides **role-based dashboards, Kanban workflow boards, analytics visualization, project calendars, and team collaboration features**, offering a streamlined project management experience similar to Trello and Asana.
+
+## 🌐 Live Demo
+
+**🚀 Try it here:** https://project-task-manager-black.vercel.app/
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
-### 🔐 Authentication Interface
+### 🔐 Authentication
 
-* User login interface
+* Secure user login interface
 * Role-based dashboards for different users
 
 ### 📋 Project Management
@@ -22,45 +25,45 @@ This platform provides **role-based dashboards, Kanban workflow boards, analytic
 
 ### ✅ Task Management
 
-* Create tasks
-* Assign tasks to team members
+* Create and assign tasks
 * Update task status
-* Monitor task completion
+* Track task completion
 
-### 📌 Kanban Workflow Board
+### 📌 Kanban Workflow
 
-* Visual task workflow
-* Columns such as:
+* Interactive task board
+* Organize tasks into:
 
-  * To Do
-  * In Progress
-  * Completed
+  * 📝 To Do
+  * 🚧 In Progress
+  * ✅ Completed
 
-### 👥 Team Management
+### 👥 Team Collaboration
 
 * Invite team members
-* Manage roles
-* Collaborate within teams
+* Manage user roles
+* Collaborate across projects
 
 ### 📅 Project Calendar
 
-* View tasks and deadlines in calendar format
-* Track project timeline
+* Calendar-based task scheduling
+* Deadline tracking
+* Timeline management
 
 ### 📊 Analytics Dashboard
 
-* Visual project statistics
-* Task progress insights
-* Performance tracking
+* Project statistics
+* Task completion insights
+* Productivity monitoring
 
 ### 🔔 Notifications
 
-* Create and manage notifications
-* Alert team members about updates
+* Manage notifications
+* Alert team members about project updates
 
 ---
 
-# 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 
@@ -71,127 +74,119 @@ This platform provides **role-based dashboards, Kanban workflow boards, analytic
 ### UI & Styling
 
 * Tailwind CSS
-* ShadCN UI Components
+* ShadCN UI
 * PostCSS
 
 ### State Management
 
-* Custom Store (TypeScript)
+* Custom TypeScript Store
 
-### Other Tools
+### Tools
 
-* Modular component architecture
-* Reusable UI components
+* Modular Component Architecture
+* Reusable UI Components
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 src
- ├── app
- │    ├── components
- │    │     ├── dashboard
- │    │     ├── projects
- │    │     ├── kanban-board
- │    │     ├── analytics
- │    │     └── auth-page
- │
- ├── components
- │     └── ui
- │
- ├── lib
- │     └── firebase.ts
- │
- ├── store
- │     └── index.ts
- │
- ├── styles
- │     ├── tailwind.css
- │     ├── theme.css
- │     └── index.css
- │
- ├── types
- │
- └── utils
+├── app
+│   ├── components
+│   │   ├── dashboard
+│   │   ├── projects
+│   │   ├── kanban-board
+│   │   ├── analytics
+│   │   └── auth-page
+│
+├── components
+│   └── ui
+│
+├── lib
+│   └── firebase.ts
+│
+├── store
+│   └── index.ts
+│
+├── styles
+│   ├── tailwind.css
+│   ├── theme.css
+│   └── index.css
+│
+├── types
+│
+└── utils
 ```
 
 ---
 
-# ⚙️ Installation & Setup
+## ⚙️ Installation
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/project-task-management-system.git
 ```
 
----
-
-### 2️⃣ Navigate to project folder
+### 2. Navigate to the project directory
 
 ```bash
 cd project-task-management-system
 ```
 
----
-
-### 3️⃣ Install dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
----
-
-### 4️⃣ Run the development server
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
----
+### 5. Open your browser
 
-### 5️⃣ Open in browser
-
-```
+```text
 http://localhost:5173
 ```
 
 ---
 
-# 💡 Future Improvements
+## 💡 Future Improvements
 
-* Backend integration using **Node.js and Express**
-* Database support with **MongoDB or Firebase**
-* Drag-and-drop Kanban tasks
-* Real-time updates with **WebSockets**
+* Node.js & Express backend integration
+* Firebase/MongoDB database support
+* Drag-and-drop Kanban board
+* Real-time collaboration with WebSockets
 * Email notifications
-* Deployment on **Vercel or Netlify**
+* Advanced reporting and analytics
 
 ---
 
-# 🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
-Through this project, the following concepts were implemented:
-
-* Component-based architecture in React
+* Component-based architecture with React
 * Type-safe development using TypeScript
-* Modern UI design with Tailwind CSS
-* Dashboard and analytics UI development
-* Modular and scalable frontend structure
+* Responsive UI with Tailwind CSS
+* Dashboard and analytics implementation
+* Scalable frontend architecture
+* State management in modern React applications
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-**Uday Raja Sekhar Reddy**
+**Uday Marri**
 
-Frontend Developer
-Kalasalingam Academy of Research and Education
+* 🎓 B.Tech Information Technology
+* 🏫 Kalasalingam Academy of Research and Education
+* 💻 GitHub: https://github.com/udaymarri
 
-GitHub:
-[https://github.com/udaymarri](https://github.com/udaymarri)
+---
 
+## ⭐ Support
 
-If you want, I can also give you a **🔥 much more attractive README (with badges, screenshots, and animations)** that makes recruiters **immediately impressed when they open your GitHub**.
+If you found this project useful, consider giving it a **⭐ Star** on GitHub!
